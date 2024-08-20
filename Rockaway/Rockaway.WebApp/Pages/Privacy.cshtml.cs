@@ -1,19 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.RazorPages;
-
 namespace Rockaway.WebApp.Pages;
 
-public class PrivacyModel : PageModel
-{
-    private readonly ILogger<PrivacyModel> _logger;
+public class PrivacyModel : PageModel {
 
-    public PrivacyModel(ILogger<PrivacyModel> logger)
-    {
-        _logger = logger;
-    }
-
-    public void OnGet()
-    {
-    }
+	public void OnGet() {
+	}
 }
-
