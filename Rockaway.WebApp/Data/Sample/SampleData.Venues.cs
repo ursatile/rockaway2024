@@ -27,7 +27,7 @@ public static partial class SampleData {
 			"+45 35355069", "https://www.stengade.dk");
 
 		public static Venue Barracuda = new(NextId, "Barracuda", "barracuda-porto", "R da Madeira 186", "Porto", "pt-PT", "4000-433", null,
-			null);
+			"https://www.instagram.com/barracuda_clube_de_roque");
 
 		public static Venue PubAnchor = new(NextId, "Pub Anchor", "pub-anchor-stockholm", "Sveavägen 90", "Stockholm", "sv-SE", "113 59",
 			"+46 8 15 20 00", "https://www.instagram.com/pubanchor/?hl=en");
